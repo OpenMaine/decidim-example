@@ -27,3 +27,6 @@ After creating the organization, go to `http://localhost:3000` to get the homepa
 
 ![screenshots/homepage.png](screenshots/homepage.png)
 
+## Notes
+
+* This doesn't include a mail server. If we want to send newsletters or signup emails we need to hook in to an email server.
