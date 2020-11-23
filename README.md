@@ -15,7 +15,7 @@ docker exec -it $(docker ps | grep "decidim:latest" | awk '{print $1}') /bin/bas
 
 ## Browser
 
-Navigate to `http://localhost:3000/system` to create an organization.
+Navigate to `http://localhost:3000/system` to create an organization (see `seeds.rb` for the username and password).
 
 Here are the settings:
 
