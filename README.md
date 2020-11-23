@@ -7,7 +7,9 @@ docker build -t decidim:latest .
 docker run -it --rm -p 3000:3000 decidim:latest
 ```
 
-## To get a console
+## To get a console for debugging purposes
+
+You shouldn't need this if everything is working normally.
 
 ```bash
 docker exec -it $(docker ps | grep "decidim:latest" | awk '{print $1}') /bin/bash
