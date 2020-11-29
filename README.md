@@ -90,6 +90,7 @@ The administrator can send newsletters (see note about needing a mail server to 
 #### Settings
 
 The administrator can change any info about the organization.
+A designer here could help with the appearance and page layout.
 
 ![screenshots/setup-settings.png](screenshots/setup-settings.png)
 
