@@ -94,9 +94,17 @@ A designer here could help with the appearance and page layout.
 
 ![screenshots/setup-settings.png](screenshots/setup-settings.png)
 
+Layout:
+
+![screenshots/setup-settings-layout.png](screenshots/setup-settings-layout.png)
+
+Color scheme:
+
+![screenshots/setup-settings-color-scheme.png](screenshots/setup-settings-color-scheme.png)
+
 #### Static pages
 
-Someone will need to write an FAQ page.
+Someone will need to write an FAQ page (under [#pages](#pages)).
 
 ![screenshots/faq-button.png](screenshots/faq-button.png)
 
