@@ -23,9 +23,8 @@ Here are the settings:
 
 ![screenshots/settings.png](screenshots/settings.png)
 
-While no welcome email will be sent to the admin user for the organization, the contents of the email are logged in the Docker container.
-If you search for "Someone has invited you to OpenMaine", you should be able to copy/paste the invite link into your browser to register.
-You will then get redirected to the admin dashboard.
+To find the invite email, go to `http://localhost:3000/letter_opener` and click the invite link to register.
+After registering you will be redirected to the admin dashboard.
 
 ![screenshots/admin.png](screenshots/admin.png)
 
