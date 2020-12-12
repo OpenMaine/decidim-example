@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  decidim:
+    image: danno704/portlandcharter:latest
+    ports:
+      - "8080:8080"
+    links:
+      - postgres
+    environment:
+      - DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres
+      - PORT=8080
+  postgres:
+    image: postgres:12.5
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
